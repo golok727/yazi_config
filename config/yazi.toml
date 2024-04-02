@@ -1,0 +1,16 @@
+# Open with
+[opener]
+text =  [
+    { run = 'hx "%*"', block = true }
+]
+
+[open]
+rules = [
+    { mime = "text/*", use="text" }
+]
+
+
+
+[manager]
+sort_by = "extension"
+sort_dir_first = true
